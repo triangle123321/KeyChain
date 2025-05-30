@@ -97,6 +97,7 @@ public class GameKeyService : IGameKeyService
         return allKeys.Any(k => k.Key.Equals(key, StringComparison.OrdinalIgnoreCase));
     }
     
+    // To be implemented later if possible
     private void ValidateGameKey(GameKey gameKey)
     {
         if (gameKey == null)

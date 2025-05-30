@@ -18,5 +18,6 @@ namespace api.Controllers
             var gameKeys = await _gameKeyService.GetTotalKeysCountAsync();
             return Ok(gameKeys);
         }
+
     }
 }
