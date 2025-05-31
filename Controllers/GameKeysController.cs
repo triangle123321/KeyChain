@@ -52,6 +52,41 @@ namespace api.Controllers
             }
         }
 
+        [HttpPut("{id}/use")]
+        public async Task<IActionResult> MarkGameKeyAsUsed(int id)
+        {
+            try
+            {
+                var updatedGameKey = await _gameKeyService.MarkAsUsedAsync(id);
+                return Ok(updatedGameKey);
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteGameKey(int id)
+        {
+            try
+            {
+                await _gameKeyService.DeleteKeyAsync(id);
+                return NoContent();
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+
+        [HttpGet("/unused")]
+        public async Task<IActionResult> GetUnusedGameKeys()
+        {
+            var unusedKeys = await _gameKeyService.GetUnusedKeysAsync();
+            return Ok(unusedKeys);
+        }
+        
         [HttpGet("/count")]
         public async Task<IActionResult> GetTotalGameKeysCount()
         {
