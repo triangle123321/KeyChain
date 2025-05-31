@@ -3,4 +3,4 @@
 GET {{api_HostAddress}}/weatherforecast/
 Accept: application/json
 
-###
+### Refactor for all endpoints, keep current for reference
