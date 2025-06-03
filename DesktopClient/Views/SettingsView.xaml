@@ -1,0 +1,51 @@
+﻿<UserControl x:Class="GameKeyManager.Views.SettingsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="⚙️" 
+                       FontSize="64" 
+                       HorizontalAlignment="Center" 
+                       Margin="0,0,0,20"/>
+
+            <TextBlock Text="Settings" 
+                       Foreground="White" 
+                       FontSize="24" 
+                       FontWeight="Bold" 
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,10"/>
+
+            <TextBlock Text="Settings functionality coming soon..." 
+                       Foreground="#CCCCCC" 
+                       FontSize="16" 
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,20"/>
+
+            <TextBlock Text="Planned features:" 
+                       Foreground="#999999" 
+                       FontSize="14" 
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,10"/>
+
+            <StackPanel HorizontalAlignment="Center">
+                <TextBlock Text="• Theme customization" 
+                           Foreground="#999999" 
+                           FontSize="12" 
+                           HorizontalAlignment="Center"/>
+                <TextBlock Text="• Auto-backup settings" 
+                           Foreground="#999999" 
+                           FontSize="12" 
+                           HorizontalAlignment="Center"/>
+                <TextBlock Text="• Export/Import preferences" 
+                           Foreground="#999999" 
+                           FontSize="12" 
+                           HorizontalAlignment="Center"/>
+                <TextBlock Text="• Security options" 
+                           Foreground="#999999" 
+                           FontSize="12" 
+                           HorizontalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>
