@@ -134,33 +134,35 @@
                     <Button x:Name="BtnLibrary" 
                             Content="📚 My Library" 
                             Style="{StaticResource ActiveNavButton}"
-                            Click="BtnLibrary_Click"/>
+                            Command="{Binding ShowLibraryCommand}"/>
                     <!-- Addgame navigation button -->
                     <Button x:Name="BtnAddGame" 
                             Content="➕ Add Game" 
                             Style="{StaticResource NavButton}"
-                            Click="BtnAddGame_Click"/>
+                            Command="{Binding ShowAddGameCommand}" Click="BtnAddGame_Click"/>
                     <!-- Settings navigation button -->
                     <Button x:Name="BtnSettings" 
                             Content="⚙️ Settings" 
                             Style="{StaticResource NavButton}"
-                            Click="BtnSettings_Click"/>
+                            Command="{Binding ShowSettingsCommand}"/>
                     <Separator Background="#3E3E42" Margin="10,20" Height="1"/>
                     <!-- Login navigation button -->
                     <Button x:Name="BtnLogin" 
                             Content="⚿ Login" 
+                            Visibility="{Binding IsAuthenticated, Converter={StaticResource InverseBoolToVis}}"
                             Style="{StaticResource NavButton}"
-                            Click="BtnLogin_Click"/>
+                            Command="{Binding ShowLoginCommand}"/>
                     <!-- Account navigation button -->
                     <Button x:Name="BtnAccount" 
                             Content="👤 Account" 
                             Style="{StaticResource NavButton}"
-                            Click="BtnAccount_Click"/>
+                            Command="{Binding ShowAccountCommand}"/>
                     <!-- Logout navigation button -->
                     <Button x:Name="BtnLogout" 
                             Content="⏻ Logout" 
+                            Visibility="{Binding IsAuthenticated, Converter={StaticResource BoolToVisibilityConverter}}"
                             Style="{StaticResource NavButton}"
-                            Click="BtnAccount_Click"/>
+                            Command="{Binding ShowAccountCommand}"/>
                 </StackPanel>
 
                 <!-- Cloud Status -->
@@ -222,10 +224,8 @@
 
             <!-- Content Views Container -->
             <Border Grid.Row="1" Padding="20">
-                <!-- This Grid will be used as a container for dynamically loaded views -->
-                <Grid x:Name="ContentContainer">
-                    <!-- Views will be added/removed here programmatically -->
-                </Grid>
+                <!-- Change different views in this area -->
+                <ContentControl Content="{Binding CurrentViewModel}" />
             </Border>
         </Grid>
     </Grid>

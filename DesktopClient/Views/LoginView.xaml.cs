@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using GameKeyManager.ViewModels;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace GameKeyManager.Views
@@ -10,16 +11,17 @@ namespace GameKeyManager.Views
             InitializeComponent();
         }
 
-        private void BtnLogin_Click(object sender, RoutedEventArgs e)
+        private void TxtPassword_PasswordChanged(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Sync functionality will be implemented later.", "Info",
-                MessageBoxButton.OK, MessageBoxImage.Information);
+            if (DataContext is LoginViewModel vm)
+            {
+                vm.Password = ((PasswordBox)sender).Password;
+            }
         }
 
-        private void BtnRegister_Click(object sender, RoutedEventArgs e)
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            MessageBox.Show("Sync functionality will be implemented later.", "Info",
-                MessageBoxButton.OK, MessageBoxImage.Information);
+
         }
     }
 }

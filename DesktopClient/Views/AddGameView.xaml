@@ -1,6 +1,11 @@
 ﻿<UserControl x:Class="GameKeyManager.Views.AddGameView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:viewmodels="clr-namespace:GameKeyManager.ViewModels"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             d:DataContext="{d:DesignInstance Type=viewmodels:AddGameViewModel}">
 
     <UserControl.Resources>
         <!-- Modern Button Style -->
@@ -101,31 +106,26 @@
                        Margin="0,0,0,20"/>
 
             <TextBlock Text="Game Title *" Foreground="#CCCCCC" Margin="0,0,0,5"/>
-            <TextBox x:Name="TxtGameTitle" Style="{StaticResource ModernTextBox}" Margin="0,0,0,15"/>
+            <TextBox Style="{StaticResource ModernTextBox}" 
+                     Margin="0,0,0,15"
+                     Text="{Binding GameTitle, UpdateSourceTrigger=PropertyChanged}"
+                     TextChanged="TextBox_TextChanged"/>
 
             <TextBlock Text="Platform *" Foreground="#CCCCCC" Margin="0,0,0,5"/>
-            <ComboBox x:Name="CmbPlatform" 
-                      Style="{StaticResource ModernComboBox}"
-                      Margin="0,0,0,15">
-                <ComboBoxItem Content="Steam"/>
-                <ComboBoxItem Content="Epic Games"/>
-                <ComboBoxItem Content="Origin"/>
-                <ComboBoxItem Content="Ubisoft Connect"/>
-                <ComboBoxItem Content="GOG"/>
-                <ComboBoxItem Content="Battle.net"/>
-                <ComboBoxItem Content="Xbox Game Pass"/>
-                <ComboBoxItem Content="PlayStation"/>
-                <ComboBoxItem Content="Nintendo"/>
-                <ComboBoxItem Content="Other"/>
-            </ComboBox>
+            <ComboBox Style="{StaticResource ModernComboBox}"
+                      Margin="0,0,0,15"
+                      ItemsSource="{Binding Platforms}"
+                      SelectedItem="{Binding Platform, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            
 
             <TextBlock Text="Product Key *" Foreground="#CCCCCC" Margin="0,0,0,5"/>
-            <TextBox x:Name="TxtProductKey" 
-                     Style="{StaticResource ModernTextBox}" 
+            <TextBox Style="{StaticResource ModernTextBox}" 
                      Margin="0,0,0,15"
-                     ToolTip="Enter the product key or activation code"/>
+                     ToolTip="Enter the product key or activation code"
+                     Text="{Binding GameTitle, UpdateSourceTrigger=PropertyChanged}"
+                     TextChanged="TextBox_TextChanged"/>
 
-            <TextBlock Text="Purchase Price" Foreground="#CCCCCC" Margin="0,0,0,5"/>
+            <!-- Remove in future, for demo unneccesary <TextBlock Text="Purchase Price" Foreground="#CCCCCC" Margin="0,0,0,5"/>
             <TextBox x:Name="TxtPrice" 
                      Style="{StaticResource ModernTextBox}" 
                      Margin="0,0,0,15"
@@ -137,7 +137,7 @@
                         Foreground="White"
                         BorderBrush="#5A5A5A"
                         Margin="0,0,0,15"/>
-
+               -->
             <TextBlock Text="Notes (Optional)" Foreground="#CCCCCC" Margin="0,0,0,5"/>
             <TextBox x:Name="TxtNotes" 
                      Style="{StaticResource ModernTextBox}" 
@@ -149,23 +149,20 @@
                      ToolTip="Any additional notes about this game"/>
 
             <StackPanel Orientation="Horizontal">
-                <Button x:Name="BtnSaveGame" 
-                        Content="💾 Save Game"
+                <Button Content="💾 Save Game"
                         Style="{StaticResource ModernButton}"
                         Background="#4CAF50"
                         Margin="0,0,10,0"
-                        Click="BtnSaveGame_Click"/>
-                <Button x:Name="BtnClearForm" 
-                        Content="🗑️ Clear Form"
+                        Command="{Binding SaveGameCommand}"/>
+                <Button Content="🗑️ Clear Form"
                         Style="{StaticResource ModernButton}"
                         Background="#FF9800"
                         Margin="0,0,10,0"
-                        Click="BtnClearForm_Click"/>
-                <Button x:Name="BtnCancel" 
-                        Content="❌ Cancel"
+                        Command="{Binding ClearFormCommand}"/>
+                <Button Content="❌ Cancel"
                         Style="{StaticResource ModernButton}"
                         Background="#666666"
-                        Click="BtnCancel_Click"/>
+                        Command="{Binding CancelCommand}"/>
             </StackPanel>
         </StackPanel>
     </ScrollViewer>

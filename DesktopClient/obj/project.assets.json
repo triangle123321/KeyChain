@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\DesktopClient.csproj",
-      "projectName": "DesktopClient",
-      "projectPath": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\DesktopClient.csproj",
+      "projectUniqueName": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\GameKeyManager.csproj",
+      "projectName": "GameKeyManager",
+      "projectPath": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\GameKeyManager.csproj",
       "packagesPath": "C:\\Users\\Kasutaja\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\obj\\",
       "projectStyle": "PackageReference",

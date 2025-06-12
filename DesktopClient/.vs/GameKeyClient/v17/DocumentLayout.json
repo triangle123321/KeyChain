@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|DesktopClient.csproj|c:\\users\\kasutaja\\desktop\\jihvi\\netwebapi\\api\\desktopclient\\views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|DesktopClient.csproj|solutionrelative:views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|GameKeyManager.csproj|c:\\users\\kasutaja\\desktop\\jihvi\\netwebapi\\api\\desktopclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|GameKeyManager.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|DesktopClient.csproj|c:\\users\\kasutaja\\desktop\\jihvi\\netwebapi\\api\\desktopclient\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|DesktopClient.csproj|solutionrelative:views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|GameKeyManager.csproj|c:\\users\\kasutaja\\desktop\\jihvi\\netwebapi\\api\\desktopclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|GameKeyManager.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|DesktopClient.csproj|c:\\users\\kasutaja\\desktop\\jihvi\\netwebapi\\api\\desktopclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|DesktopClient.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|GameKeyManager.csproj|c:\\users\\kasutaja\\desktop\\jihvi\\netwebapi\\api\\desktopclient\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|GameKeyManager.csproj|solutionrelative:views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|DesktopClient.csproj|c:\\users\\kasutaja\\desktop\\jihvi\\netwebapi\\api\\desktopclient\\views\\addgameview.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|DesktopClient.csproj|solutionrelative:views\\addgameview.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|GameKeyManager.csproj|c:\\users\\kasutaja\\desktop\\jihvi\\netwebapi\\api\\desktopclient\\converters\\booltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|GameKeyManager.csproj|solutionrelative:converters\\booltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|DesktopClient.csproj|c:\\users\\kasutaja\\desktop\\jihvi\\netwebapi\\api\\desktopclient\\views\\addgameview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|DesktopClient.csproj|solutionrelative:views\\addgameview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|GameKeyManager.csproj|c:\\users\\kasutaja\\desktop\\jihvi\\netwebapi\\api\\desktopclient\\converters\\inversebooltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|GameKeyManager.csproj|solutionrelative:converters\\inversebooltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|DesktopClient.csproj|c:\\users\\kasutaja\\desktop\\jihvi\\netwebapi\\api\\desktopclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|DesktopClient.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|GameKeyManager.csproj|c:\\users\\kasutaja\\desktop\\jihvi\\netwebapi\\api\\desktopclient\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|GameKeyManager.csproj|solutionrelative:viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|DesktopClient.csproj|c:\\users\\kasutaja\\desktop\\jihvi\\netwebapi\\api\\desktopclient\\views\\loginview.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|DesktopClient.csproj|solutionrelative:views\\loginview.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|GameKeyManager.csproj|c:\\users\\kasutaja\\desktop\\jihvi\\netwebapi\\api\\desktopclient\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD2A19D-09A6-4AA9-A8D5-B734BE16F5B6}|GameKeyManager.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,90 +38,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LoginView.xaml",
               "DocumentMoniker": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\Views\\LoginView.xaml",
               "RelativeDocumentMoniker": "Views\\LoginView.xaml",
               "ToolTip": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\Views\\LoginView.xaml",
               "RelativeToolTip": "Views\\LoginView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-02T12:18:44.229Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\Views\\LoginView.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\LoginView.xaml.cs",
-              "ToolTip": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\Views\\LoginView.xaml.cs",
-              "RelativeToolTip": "Views\\LoginView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T11:36:01.515Z",
+              "WhenOpened": "2025-06-12T03:07:24.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AddGameView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\Views\\AddGameView.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\AddGameView.xaml.cs",
-              "ToolTip": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\Views\\AddGameView.xaml.cs",
-              "RelativeToolTip": "Views\\AddGameView.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Title": "InverseBoolToVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\Converters\\InverseBoolToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\InverseBoolToVisibilityConverter.cs",
+              "ToolTip": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\Converters\\InverseBoolToVisibilityConverter.cs",
+              "RelativeToolTip": "Converters\\InverseBoolToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T09:44:04.85Z"
+              "WhenOpened": "2025-06-12T03:05:07.016Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AddGameView.xaml",
-              "DocumentMoniker": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\Views\\AddGameView.xaml",
-              "RelativeDocumentMoniker": "Views\\AddGameView.xaml",
-              "ToolTip": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\Views\\AddGameView.xaml",
-              "RelativeToolTip": "Views\\AddGameView.xaml",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAAAKgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-01T12:25:41.161Z"
+              "Title": "BoolToVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\Converters\\BoolToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\BoolToVisibilityConverter.cs",
+              "ToolTip": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\Converters\\BoolToVisibilityConverter.cs",
+              "RelativeToolTip": "Converters\\BoolToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T03:05:00.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T02:58:46.584Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T03:03:07.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-01T09:30:26.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAkwAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T08:37:44.11Z"
+              "WhenOpened": "2025-06-12T02:58:51.672Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "LoginView.xaml",
-              "DocumentMoniker": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\Views\\LoginView.xaml",
-              "RelativeDocumentMoniker": "Views\\LoginView.xaml",
-              "ToolTip": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\Views\\LoginView.xaml",
-              "RelativeToolTip": "Views\\LoginView.xaml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAD4AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-02T12:09:03.893Z"
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Kasutaja\\Desktop\\Jihvi\\netwebapi\\api\\DesktopClient\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T02:57:53.26Z",
+              "EditorCaption": ""
             }
           ]
         }
